@@ -1,0 +1,310 @@
+Laravel development server started: <http://127.0.0.1:8001>
+[Fri Apr 28 19:45:47 2017] 127.0.0.1:37186 [200]: /favicon.ico
+[Fri Apr 28 19:45:55 2017] 127.0.0.1:37190 [200]: /favicon.ico
+[Fri Apr 28 19:46:00 2017] 127.0.0.1:37194 [200]: /favicon.ico
+[Fri Apr 28 19:47:35 2017] 127.0.0.1:37196 Invalid request (Unexpected EOF)
+[Fri Apr 28 19:50:05 2017] 127.0.0.1:37214 [200]: /css/app.css
+[Fri Apr 28 19:50:05 2017] 127.0.0.1:37216 [200]: /js/app.js
+[Fri Apr 28 19:50:05 2017] 127.0.0.1:37218 [200]: /favicon.ico
+[Fri Apr 28 19:50:15 2017] 127.0.0.1:37228 [200]: /css/app.css
+[Fri Apr 28 19:50:15 2017] 127.0.0.1:37230 [200]: /js/app.js
+[Fri Apr 28 19:50:15 2017] 127.0.0.1:37232 [200]: /favicon.ico
+[Fri Apr 28 19:50:20 2017] 127.0.0.1:37242 [200]: /css/app.css
+[Fri Apr 28 19:50:20 2017] 127.0.0.1:37244 [200]: /js/app.js
+[Fri Apr 28 19:50:21 2017] 127.0.0.1:37246 [200]: /favicon.ico
+[Fri Apr 28 19:50:34 2017] 127.0.0.1:37248 [200]: /favicon.ico
+[Fri Apr 28 19:50:46 2017] 127.0.0.1:37258 [200]: /js/app.js
+[Fri Apr 28 19:50:46 2017] 127.0.0.1:37250 Invalid request (Unexpected EOF)
+[Fri Apr 28 19:50:46 2017] 127.0.0.1:37252 Invalid request (Unexpected EOF)
+[Fri Apr 28 19:50:46 2017] 127.0.0.1:37254 Invalid request (Unexpected EOF)
+[Fri Apr 28 19:50:46 2017] 127.0.0.1:37256 Invalid request (Unexpected EOF)
+[Fri Apr 28 19:50:47 2017] 127.0.0.1:37260 [200]: /favicon.ico
+Laravel development server started: <http://127.0.0.1:8001>
+[Sun Apr 30 14:03:27 2017] 127.0.0.1:47830 [200]: /favicon.ico
+[Sun Apr 30 14:11:23 2017] 127.0.0.1:48060 [200]: /favicon.ico
+[Sun Apr 30 14:11:24 2017] 127.0.0.1:48064 [200]: /favicon.ico
+[Sun Apr 30 14:11:25 2017] 127.0.0.1:48068 [200]: /favicon.ico
+[Sun Apr 30 14:11:25 2017] 127.0.0.1:48072 [200]: /favicon.ico
+[Sun Apr 30 14:11:25 2017] 127.0.0.1:48076 [200]: /favicon.ico
+[Sun Apr 30 14:11:28 2017] 127.0.0.1:48080 [200]: /css/app.css
+[Sun Apr 30 14:11:28 2017] 127.0.0.1:48082 [200]: /js/app.js
+[Sun Apr 30 14:11:28 2017] 127.0.0.1:48084 [200]: /favicon.ico
+[Sun Apr 30 14:55:11 2017] 127.0.0.1:48900 [200]: /favicon.ico
+[Sun Apr 30 14:55:14 2017] 127.0.0.1:48904 [200]: /favicon.ico
+[Sun Apr 30 14:55:22 2017] 127.0.0.1:48908 [200]: /favicon.ico
+[Sun Apr 30 14:55:23 2017] 127.0.0.1:48912 [200]: /favicon.ico
+[Sun Apr 30 14:55:24 2017] 127.0.0.1:48916 [200]: /favicon.ico
+[Sun Apr 30 14:55:25 2017] 127.0.0.1:48920 [200]: /favicon.ico
+[Sun Apr 30 14:55:25 2017] 127.0.0.1:48924 [200]: /favicon.ico
+[Sun Apr 30 14:55:25 2017] 127.0.0.1:48928 [200]: /favicon.ico
+[Sun Apr 30 14:55:36 2017] 127.0.0.1:48930 Invalid request (Unexpected EOF)
+[Sun Apr 30 14:55:41 2017] 127.0.0.1:48938 [200]: /favicon.ico
+[Sun Apr 30 14:55:52 2017] 127.0.0.1:48940 Invalid request (Unexpected EOF)
+[Sun Apr 30 14:55:52 2017] 127.0.0.1:49002 [200]: /favicon.ico
+[Sun Apr 30 14:56:06 2017] 127.0.0.1:49004 Invalid request (Unexpected EOF)
+[Sun Apr 30 14:56:49 2017] 127.0.0.1:49472 [200]: /css/app.css
+[Sun Apr 30 14:56:49 2017] 127.0.0.1:49474 [200]: /js/app.js
+[Sun Apr 30 14:56:49 2017] 127.0.0.1:49484 [200]: /favicon.ico
+[Sun Apr 30 15:00:38 2017] 127.0.0.1:51346 [200]: /favicon.ico
+[Sun Apr 30 15:01:02 2017] 127.0.0.1:51544 [200]: /css/app.css
+[Sun Apr 30 15:01:02 2017] 127.0.0.1:51546 [200]: /js/app.js
+[Sun Apr 30 15:01:02 2017] 127.0.0.1:51548 [200]: /favicon.ico
+[Sun Apr 30 15:02:09 2017] 127.0.0.1:52094 [200]: /css/app.css
+[Sun Apr 30 15:02:09 2017] 127.0.0.1:52096 [200]: /js/app.js
+[Sun Apr 30 15:02:09 2017] 127.0.0.1:52106 [200]: /favicon.ico
+[Sun Apr 30 15:02:10 2017] 127.0.0.1:52120 [200]: /css/app.css
+[Sun Apr 30 15:02:10 2017] 127.0.0.1:52122 [200]: /js/app.js
+[Sun Apr 30 15:02:10 2017] 127.0.0.1:52124 [200]: /favicon.ico
+[Sun Apr 30 15:04:26 2017] 127.0.0.1:53234 [200]: /css/app.css
+[Sun Apr 30 15:04:26 2017] 127.0.0.1:53236 [200]: /js/app.js
+[Sun Apr 30 15:04:26 2017] 127.0.0.1:53238 [200]: /favicon.ico
+[Sun Apr 30 15:04:43 2017] 127.0.0.1:53372 [200]: /css/app.css
+[Sun Apr 30 15:04:43 2017] 127.0.0.1:53374 [200]: /js/app.js
+[Sun Apr 30 15:04:43 2017] 127.0.0.1:53376 [200]: /favicon.ico
+[Sun Apr 30 15:06:16 2017] 127.0.0.1:54158 [200]: /favicon.ico
+[Sun Apr 30 15:06:45 2017] 127.0.0.1:54394 [200]: /css/app.css
+[Sun Apr 30 15:06:45 2017] 127.0.0.1:54396 [200]: /js/app.js
+[Sun Apr 30 15:06:45 2017] 127.0.0.1:54406 [200]: /favicon.ico
+[Sun Apr 30 15:07:23 2017] 127.0.0.1:54766 [200]: /css/app.css
+[Sun Apr 30 15:07:23 2017] 127.0.0.1:54768 [200]: /js/app.js
+[Sun Apr 30 15:07:23 2017] 127.0.0.1:54770 [200]: /favicon.ico
+[Sun Apr 30 15:07:23 2017] 127.0.0.1:54784 [200]: /css/app.css
+[Sun Apr 30 15:07:23 2017] 127.0.0.1:54786 [200]: /js/app.js
+[Sun Apr 30 15:07:24 2017] 127.0.0.1:54788 [200]: /favicon.ico
+[Sun Apr 30 15:08:09 2017] 127.0.0.1:55154 [200]: /favicon.ico
+[Sun Apr 30 15:08:27 2017] 127.0.0.1:55302 [200]: /favicon.ico
+[Sun Apr 30 15:08:36 2017] 127.0.0.1:55390 [200]: /favicon.ico
+[Sun Apr 30 15:08:52 2017] 127.0.0.1:55522 [200]: /css/app.css
+[Sun Apr 30 15:08:52 2017] 127.0.0.1:55524 [200]: /js/app.js
+[Sun Apr 30 15:08:52 2017] 127.0.0.1:55526 [200]: /favicon.ico
+[Sun Apr 30 15:09:18 2017] 127.0.0.1:55740 [200]: /css/app.css
+[Sun Apr 30 15:09:18 2017] 127.0.0.1:55742 [200]: /js/app.js
+[Sun Apr 30 15:09:18 2017] 127.0.0.1:55744 [200]: /favicon.ico
+[Sun Apr 30 15:09:20 2017] 127.0.0.1:55764 [200]: /favicon.ico
+[Sun Apr 30 15:09:30 2017] 127.0.0.1:55848 [200]: /favicon.ico
+[Sun Apr 30 15:10:15 2017] 127.0.0.1:56212 [200]: /favicon.ico
+[Sun Apr 30 15:10:32 2017] 127.0.0.1:56354 [200]: /favicon.ico
+[Sun Apr 30 15:11:20 2017] 127.0.0.1:56770 [200]: /favicon.ico
+[Sun Apr 30 15:11:20 2017] 127.0.0.1:56776 [200]: /favicon.ico
+[Sun Apr 30 15:11:21 2017] 127.0.0.1:56790 [200]: /favicon.ico
+[Sun Apr 30 15:11:40 2017] 127.0.0.1:56950 [200]: /favicon.ico
+[Sun Apr 30 15:11:53 2017] 127.0.0.1:57058 [200]: /favicon.ico
+[Sun Apr 30 15:11:56 2017] 127.0.0.1:57088 [200]: /favicon.ico
+[Sun Apr 30 15:12:07 2017] 127.0.0.1:57184 [200]: /favicon.ico
+[Sun Apr 30 15:12:08 2017] 127.0.0.1:57198 [200]: /favicon.ico
+[Sun Apr 30 15:13:24 2017] 127.0.0.1:57828 [200]: /favicon.ico
+[Sun Apr 30 15:13:36 2017] 127.0.0.1:57930 [200]: /favicon.ico
+[Sun Apr 30 15:15:24 2017] 127.0.0.1:58828 [200]: /favicon.ico
+[Sun Apr 30 15:15:47 2017] 127.0.0.1:59028 [200]: /css/app.css
+[Sun Apr 30 15:15:47 2017] 127.0.0.1:59030 [200]: /js/app.js
+[Sun Apr 30 15:15:48 2017] 127.0.0.1:59032 [200]: /favicon.ico
+[Sun Apr 30 15:15:56 2017] 127.0.0.1:59112 [200]: /css/app.css
+[Sun Apr 30 15:15:56 2017] 127.0.0.1:59114 [200]: /js/app.js
+[Sun Apr 30 15:15:56 2017] 127.0.0.1:59116 [200]: /favicon.ico
+[Sun Apr 30 15:15:56 2017] 127.0.0.1:59122 [200]: /css/app.css
+[Sun Apr 30 15:15:56 2017] 127.0.0.1:59124 [200]: /js/app.js
+[Sun Apr 30 15:15:56 2017] 127.0.0.1:59126 [200]: /favicon.ico
+[Sun Apr 30 15:16:59 2017] 127.0.0.1:59662 [200]: /css/app.css
+[Sun Apr 30 15:16:59 2017] 127.0.0.1:59664 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 15:16:59 2017] 127.0.0.1:59666 [200]: /js/app.js
+[Sun Apr 30 15:17:00 2017] 127.0.0.1:59672 [200]: /favicon.ico
+[Sun Apr 30 15:17:02 2017] 127.0.0.1:59700 [200]: /css/app.css
+[Sun Apr 30 15:17:02 2017] 127.0.0.1:59702 [200]: /js/app.js
+[Sun Apr 30 15:17:02 2017] 127.0.0.1:59704 [200]: /favicon.ico
+[Sun Apr 30 15:17:06 2017] 127.0.0.1:59732 [200]: /css/app.css
+[Sun Apr 30 15:17:06 2017] 127.0.0.1:59734 [200]: /js/app.js
+[Sun Apr 30 15:17:06 2017] 127.0.0.1:59736 [200]: /favicon.ico
+[Sun Apr 30 15:17:15 2017] 127.0.0.1:59826 [200]: /css/app.css
+[Sun Apr 30 15:17:15 2017] 127.0.0.1:59828 [200]: /js/app.js
+[Sun Apr 30 15:17:16 2017] 127.0.0.1:59830 [200]: /favicon.ico
+[Sun Apr 30 15:17:17 2017] 127.0.0.1:59852 [200]: /favicon.ico
+[Sun Apr 30 15:17:20 2017] 127.0.0.1:59880 [200]: /css/app.css
+[Sun Apr 30 15:17:20 2017] 127.0.0.1:59882 [200]: /js/app.js
+[Sun Apr 30 15:17:20 2017] 127.0.0.1:59884 [200]: /favicon.ico
+[Sun Apr 30 15:17:22 2017] 127.0.0.1:59888 [200]: /css/app.css
+[Sun Apr 30 15:17:22 2017] 127.0.0.1:59912 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 15:17:22 2017] 127.0.0.1:59914 [200]: /js/app.js
+[Sun Apr 30 15:17:22 2017] 127.0.0.1:59920 [200]: /favicon.ico
+[Sun Apr 30 15:17:33 2017] 127.0.0.1:60012 [200]: /css/app.css
+[Sun Apr 30 15:17:33 2017] 127.0.0.1:60014 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 15:17:33 2017] 127.0.0.1:60016 [200]: /js/app.js
+[Sun Apr 30 15:17:34 2017] 127.0.0.1:60020 [200]: /favicon.ico
+[Sun Apr 30 15:19:11 2017] 127.0.0.1:60828 [200]: /favicon.ico
+[Sun Apr 30 15:19:16 2017] 127.0.0.1:60832 [200]: /favicon.ico
+[Sun Apr 30 15:19:23 2017] 127.0.0.1:60834 Invalid request (Unexpected EOF)
+[Sun Apr 30 15:19:23 2017] 127.0.0.1:60836 Invalid request (Unexpected EOF)
+[Sun Apr 30 15:19:24 2017] 127.0.0.1:60880 [200]: /favicon.ico
+[Sun Apr 30 15:19:34 2017] 127.0.0.1:60938 Invalid request (Unexpected EOF)
+[Sun Apr 30 15:19:34 2017] 127.0.0.1:60940 Invalid request (Unexpected EOF)
+[Sun Apr 30 15:19:34 2017] 127.0.0.1:60942 Invalid request (Unexpected EOF)
+[Sun Apr 30 15:19:34 2017] 127.0.0.1:60944 Invalid request (Unexpected EOF)
+[Sun Apr 30 15:20:25 2017] 127.0.0.1:33214 [200]: /favicon.ico
+[Sun Apr 30 15:20:37 2017] 127.0.0.1:33216 Invalid request (Unexpected EOF)
+[Sun Apr 30 15:20:37 2017] 127.0.0.1:33218 Invalid request (Unexpected EOF)
+[Sun Apr 30 15:20:37 2017] 127.0.0.1:33220 Invalid request (Unexpected EOF)
+[Sun Apr 30 15:20:41 2017] 127.0.0.1:33350 [200]: /favicon.ico
+[Sun Apr 30 15:20:42 2017] 127.0.0.1:33352 [200]: /favicon.ico
+[Sun Apr 30 15:20:43 2017] 127.0.0.1:33354 [200]: /favicon.ico
+[Sun Apr 30 15:20:43 2017] 127.0.0.1:33356 [200]: /favicon.ico
+[Sun Apr 30 15:20:54 2017] 127.0.0.1:33374 Invalid request (Unexpected EOF)
+[Sun Apr 30 15:20:54 2017] 127.0.0.1:33376 Invalid request (Unexpected EOF)
+[Sun Apr 30 15:24:59 2017] 127.0.0.1:35604 [200]: /css/app.css
+[Sun Apr 30 15:24:59 2017] 127.0.0.1:35606 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 15:24:59 2017] 127.0.0.1:35608 [200]: /js/app.js
+[Sun Apr 30 15:24:59 2017] 127.0.0.1:35614 [200]: /favicon.ico
+[Sun Apr 30 15:26:01 2017] 127.0.0.1:36190 [200]: /favicon.ico
+[Sun Apr 30 15:26:13 2017] 127.0.0.1:36192 Invalid request (Unexpected EOF)
+[Sun Apr 30 15:26:13 2017] 127.0.0.1:36194 Invalid request (Unexpected EOF)
+[Sun Apr 30 15:28:35 2017] 127.0.0.1:37450 [200]: /css/app.css
+[Sun Apr 30 15:28:35 2017] 127.0.0.1:37452 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 15:28:35 2017] 127.0.0.1:37454 [200]: /js/app.js
+[Sun Apr 30 15:28:36 2017] 127.0.0.1:37462 [200]: /favicon.ico
+[Sun Apr 30 16:25:35 2017] 127.0.0.1:36984 [200]: /css/app.css
+[Sun Apr 30 16:25:35 2017] 127.0.0.1:36986 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 16:25:35 2017] 127.0.0.1:36990 [200]: /js/app.js
+[Sun Apr 30 16:25:35 2017] 127.0.0.1:36996 [200]: /favicon.ico
+[Sun Apr 30 16:25:38 2017] 127.0.0.1:37026 [200]: /favicon.ico
+[Sun Apr 30 16:25:40 2017] 127.0.0.1:37044 [200]: /favicon.ico
+[Sun Apr 30 16:25:44 2017] 127.0.0.1:37082 [200]: /css/app.css
+[Sun Apr 30 16:25:44 2017] 127.0.0.1:37084 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 16:25:44 2017] 127.0.0.1:37086 [200]: /js/app.js
+[Sun Apr 30 16:25:45 2017] 127.0.0.1:37100 [200]: /favicon.ico
+[Sun Apr 30 16:26:15 2017] 127.0.0.1:37352 [200]: /favicon.ico
+[Sun Apr 30 16:26:54 2017] 127.0.0.1:37674 [200]: /favicon.ico
+[Sun Apr 30 16:27:10 2017] 127.0.0.1:37808 [200]: /css/app.css
+[Sun Apr 30 16:27:10 2017] 127.0.0.1:37810 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 16:27:10 2017] 127.0.0.1:37812 [200]: /js/app.js
+[Sun Apr 30 16:27:11 2017] 127.0.0.1:37818 [200]: /favicon.ico
+[Sun Apr 30 16:28:42 2017] 127.0.0.1:38562 [200]: /css/app.css
+[Sun Apr 30 16:28:42 2017] 127.0.0.1:38564 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 16:28:42 2017] 127.0.0.1:38566 [200]: /js/app.js
+[Sun Apr 30 16:28:43 2017] 127.0.0.1:38570 [200]: /favicon.ico
+[Sun Apr 30 16:37:50 2017] 127.0.0.1:43576 [200]: /favicon.ico
+[Sun Apr 30 16:37:54 2017] 127.0.0.1:43614 [200]: /css/app.css
+[Sun Apr 30 16:37:54 2017] 127.0.0.1:43616 [200]: /js/app.js
+[Sun Apr 30 16:37:54 2017] 127.0.0.1:43618 [200]: /favicon.ico
+[Sun Apr 30 16:46:24 2017] 127.0.0.1:47842 [200]: /css/app.css
+[Sun Apr 30 16:46:24 2017] 127.0.0.1:47844 [200]: /js/app.js
+[Sun Apr 30 16:46:24 2017] 127.0.0.1:47848 [200]: /favicon.ico
+[Sun Apr 30 16:46:25 2017] 127.0.0.1:47860 [200]: /favicon.ico
+[Sun Apr 30 16:46:32 2017] 127.0.0.1:47920 [200]: /favicon.ico
+[Sun Apr 30 16:47:20 2017] 127.0.0.1:47922 Invalid request (Unexpected EOF)
+[Sun Apr 30 16:47:20 2017] 127.0.0.1:47924 Invalid request (Unexpected EOF)
+[Sun Apr 30 16:47:20 2017] 127.0.0.1:48328 [200]: /favicon.ico
+[Sun Apr 30 16:48:13 2017] 127.0.0.1:48330 Invalid request (Unexpected EOF)
+[Sun Apr 30 16:48:13 2017] 127.0.0.1:48766 [200]: /css/app.css
+[Sun Apr 30 16:48:13 2017] 127.0.0.1:48768 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 16:48:13 2017] 127.0.0.1:48770 [200]: /js/app.js
+[Sun Apr 30 16:48:13 2017] 127.0.0.1:48776 [200]: /favicon.ico
+[Sun Apr 30 16:48:15 2017] 127.0.0.1:48798 [200]: /css/app.css
+[Sun Apr 30 16:48:15 2017] 127.0.0.1:48800 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 16:48:15 2017] 127.0.0.1:48802 [200]: /js/app.js
+[Sun Apr 30 16:48:16 2017] 127.0.0.1:48816 [200]: /favicon.ico
+[Sun Apr 30 16:48:17 2017] 127.0.0.1:48830 [200]: /css/app.css
+[Sun Apr 30 16:48:17 2017] 127.0.0.1:48832 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 16:48:17 2017] 127.0.0.1:48834 [200]: /js/app.js
+[Sun Apr 30 16:48:17 2017] 127.0.0.1:48840 [200]: /favicon.ico
+[Sun Apr 30 16:48:21 2017] 127.0.0.1:48876 [200]: /css/app.css
+[Sun Apr 30 16:48:21 2017] 127.0.0.1:48878 [200]: /js/app.js
+[Sun Apr 30 16:48:21 2017] 127.0.0.1:48880 [200]: /favicon.ico
+[Sun Apr 30 16:48:26 2017] 127.0.0.1:48884 [200]: /css/app.css
+[Sun Apr 30 16:48:26 2017] 127.0.0.1:48928 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 16:48:26 2017] 127.0.0.1:48930 [200]: /js/app.js
+[Sun Apr 30 16:48:26 2017] 127.0.0.1:48934 [200]: /favicon.ico
+[Sun Apr 30 16:48:43 2017] 127.0.0.1:49078 [200]: /favicon.ico
+[Sun Apr 30 16:49:36 2017] 127.0.0.1:49080 Invalid request (Unexpected EOF)
+[Sun Apr 30 16:49:36 2017] 127.0.0.1:49082 Invalid request (Unexpected EOF)
+[Sun Apr 30 16:49:36 2017] 127.0.0.1:49084 Invalid request (Unexpected EOF)
+[Sun Apr 30 16:49:36 2017] 127.0.0.1:49086 Invalid request (Unexpected EOF)
+[Sun Apr 30 16:49:36 2017] 127.0.0.1:49508 [200]: /favicon.ico
+[Sun Apr 30 16:49:44 2017] 127.0.0.1:49512 [200]: /favicon.ico
+[Sun Apr 30 16:49:55 2017] 127.0.0.1:49514 Invalid request (Unexpected EOF)
+[Sun Apr 30 16:49:55 2017] 127.0.0.1:49588 Invalid request (Unexpected EOF)
+[Sun Apr 30 16:49:55 2017] 127.0.0.1:49684 [200]: /css/app.css
+[Sun Apr 30 16:49:55 2017] 127.0.0.1:49686 [200]: /js/app.js
+[Sun Apr 30 16:49:55 2017] 127.0.0.1:49688 [200]: /favicon.ico
+[Sun Apr 30 16:49:55 2017] 127.0.0.1:49694 [200]: /css/app.css
+[Sun Apr 30 16:49:55 2017] 127.0.0.1:49696 [200]: /js/app.js
+[Sun Apr 30 16:49:56 2017] 127.0.0.1:49706 [200]: /favicon.ico
+[Sun Apr 30 16:50:01 2017] 127.0.0.1:49752 [200]: /favicon.ico
+[Sun Apr 30 16:50:17 2017] 127.0.0.1:49876 [200]: /favicon.ico
+[Sun Apr 30 16:50:20 2017] 127.0.0.1:49878 [200]: /favicon.ico
+[Sun Apr 30 16:50:21 2017] 127.0.0.1:49882 [200]: /css/app.css
+[Sun Apr 30 16:50:21 2017] 127.0.0.1:49884 [200]: /js/app.js
+[Sun Apr 30 16:50:21 2017] 127.0.0.1:49930 [200]: /favicon.ico
+[Sun Apr 30 16:50:26 2017] 127.0.0.1:49974 [200]: /favicon.ico
+[Sun Apr 30 16:50:29 2017] 127.0.0.1:49978 [200]: /favicon.ico
+[Sun Apr 30 16:50:30 2017] 127.0.0.1:50000 [200]: /favicon.ico
+[Sun Apr 30 16:50:42 2017] 127.0.0.1:50020 Invalid request (Unexpected EOF)
+[Sun Apr 30 16:50:42 2017] 127.0.0.1:50022 Invalid request (Unexpected EOF)
+[Sun Apr 30 16:50:56 2017] 127.0.0.1:50244 [200]: /css/app.css
+[Sun Apr 30 16:50:56 2017] 127.0.0.1:50246 [200]: /js/app.js
+[Sun Apr 30 16:50:57 2017] 127.0.0.1:50248 [200]: /favicon.ico
+[Sun Apr 30 16:53:28 2017] 127.0.0.1:51528 [200]: /css/app.css
+[Sun Apr 30 16:53:28 2017] 127.0.0.1:51530 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 16:53:28 2017] 127.0.0.1:51532 [200]: /js/app.js
+[Sun Apr 30 16:53:28 2017] 127.0.0.1:51546 [200]: /favicon.ico
+[Sun Apr 30 16:54:37 2017] 127.0.0.1:52108 [200]: /css/app.css
+[Sun Apr 30 16:54:37 2017] 127.0.0.1:52110 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 16:54:37 2017] 127.0.0.1:52112 [200]: /js/app.js
+[Sun Apr 30 16:54:37 2017] 127.0.0.1:52118 [200]: /favicon.ico
+[Sun Apr 30 16:54:43 2017] 127.0.0.1:52172 [200]: /css/app.css
+[Sun Apr 30 16:54:43 2017] 127.0.0.1:52174 [200]: /js/app.js
+[Sun Apr 30 16:54:44 2017] 127.0.0.1:52176 [200]: /favicon.ico
+[Sun Apr 30 16:54:49 2017] 127.0.0.1:52222 [200]: /css/app.css
+[Sun Apr 30 16:54:49 2017] 127.0.0.1:52224 [200]: /js/app.js
+[Sun Apr 30 16:54:49 2017] 127.0.0.1:52226 [200]: /favicon.ico
+[Sun Apr 30 16:54:56 2017] 127.0.0.1:52292 [200]: /css/app.css
+[Sun Apr 30 16:54:56 2017] 127.0.0.1:52294 [200]: /js/app.js
+[Sun Apr 30 16:54:56 2017] 127.0.0.1:52304 [200]: /favicon.ico
+[Sun Apr 30 16:54:59 2017] 127.0.0.1:52332 [200]: /css/app.css
+[Sun Apr 30 16:54:59 2017] 127.0.0.1:52334 [200]: /js/app.js
+[Sun Apr 30 16:54:59 2017] 127.0.0.1:52336 [200]: /favicon.ico
+[Sun Apr 30 16:55:01 2017] 127.0.0.1:52360 [200]: /css/app.css
+[Sun Apr 30 16:55:01 2017] 127.0.0.1:52362 [200]: /vendor/comments/js/comments-react.js
+[Sun Apr 30 16:55:01 2017] 127.0.0.1:52364 [200]: /js/app.js
+[Sun Apr 30 16:55:02 2017] 127.0.0.1:52370 [200]: /favicon.ico
+[Sun Apr 30 17:07:14 2017] 127.0.0.1:58332 [200]: /favicon.ico
+[Sun Apr 30 17:07:26 2017] 127.0.0.1:58334 Invalid request (Unexpected EOF)
+[Sun Apr 30 17:07:26 2017] 127.0.0.1:58336 Invalid request (Unexpected EOF)
+[Sun Apr 30 17:07:26 2017] 127.0.0.1:58338 Invalid request (Unexpected EOF)
+[Sun Apr 30 17:07:26 2017] 127.0.0.1:58340 Invalid request (Unexpected EOF)
+[Sun Apr 30 17:07:26 2017] 127.0.0.1:58440 [200]: /favicon.ico
+[Sun Apr 30 17:07:37 2017] 127.0.0.1:58532 [200]: /favicon.ico
+[Sun Apr 30 17:08:03 2017] 127.0.0.1:58752 [200]: /favicon.ico
+[Sun Apr 30 17:08:04 2017] 127.0.0.1:58756 [200]: /favicon.ico
+[Sun Apr 30 17:08:04 2017] 127.0.0.1:58760 [200]: /favicon.ico
+[Sun Apr 30 17:08:04 2017] 127.0.0.1:58764 [200]: /favicon.ico
+[Sun Apr 30 17:10:31 2017] 127.0.0.1:59944 [200]: /favicon.ico
+[Sun Apr 30 17:10:31 2017] 127.0.0.1:59956 [200]: /favicon.ico
+[Sun Apr 30 17:10:32 2017] 127.0.0.1:59960 [200]: /favicon.ico
+[Sun Apr 30 17:10:40 2017] 127.0.0.1:60028 [200]: /favicon.ico
+[Sun Apr 30 17:10:40 2017] 127.0.0.1:60032 [200]: /favicon.ico
+[Sun Apr 30 17:10:40 2017] 127.0.0.1:60036 [200]: /favicon.ico
+[Sun Apr 30 17:12:37 2017] 127.0.0.1:32806 [200]: /favicon.ico
+[Sun Apr 30 17:12:38 2017] 127.0.0.1:32810 [200]: /favicon.ico
+[Sun Apr 30 17:12:39 2017] 127.0.0.1:32822 [200]: /favicon.ico
+[Sun Apr 30 17:12:39 2017] 127.0.0.1:32826 [200]: /favicon.ico
+[Sun Apr 30 17:12:39 2017] 127.0.0.1:32830 [200]: /favicon.ico
+[Sun Apr 30 17:12:39 2017] 127.0.0.1:32834 [200]: /favicon.ico
+[Sun Apr 30 17:12:39 2017] 127.0.0.1:32838 [200]: /favicon.ico
+[Sun Apr 30 17:12:40 2017] 127.0.0.1:32850 [200]: /favicon.ico
+[Sun Apr 30 17:12:40 2017] 127.0.0.1:32854 [200]: /favicon.ico
+[Sun Apr 30 17:12:40 2017] 127.0.0.1:32858 [200]: /favicon.ico
+[Sun Apr 30 17:12:40 2017] 127.0.0.1:32862 [200]: /favicon.ico
+[Sun Apr 30 17:12:40 2017] 127.0.0.1:32866 [200]: /favicon.ico
+[Sun Apr 30 17:12:40 2017] 127.0.0.1:32870 [200]: /favicon.ico
+[Sun Apr 30 17:12:40 2017] 127.0.0.1:32874 [200]: /favicon.ico
+[Sun Apr 30 17:12:40 2017] 127.0.0.1:32886 [200]: /favicon.ico
+[Sun Apr 30 17:12:41 2017] 127.0.0.1:32890 [200]: /favicon.ico
+[Sun Apr 30 17:16:37 2017] 127.0.0.1:34824 [200]: /favicon.ico
+[Sun Apr 30 17:16:46 2017] 127.0.0.1:34908 [200]: /favicon.ico
+[Sun Apr 30 17:16:46 2017] 127.0.0.1:34912 [200]: /favicon.ico
+[Sun Apr 30 17:16:47 2017] 127.0.0.1:34916 [200]: /favicon.ico
+[Sun Apr 30 17:16:47 2017] 127.0.0.1:34928 [200]: /favicon.ico
+[Sun Apr 30 17:16:56 2017] 127.0.0.1:35004 [200]: /favicon.ico
+[Sun Apr 30 17:16:57 2017] 127.0.0.1:35016 [200]: /favicon.ico
+[Sun Apr 30 17:17:25 2017] 127.0.0.1:35246 [200]: /favicon.ico
+[Sun Apr 30 17:17:26 2017] 127.0.0.1:35250 [200]: /favicon.ico
+[Sun Apr 30 17:17:31 2017] 127.0.0.1:35302 [200]: /favicon.ico
+[Tue May  2 06:22:14 2017] 127.0.0.1:52540 [200]: /favicon.ico
