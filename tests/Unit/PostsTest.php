@@ -24,9 +24,13 @@ class PostsTest extends TestCase
 
         // Création de l'utilisateur
         $this->user = User::create(["name" => "test", "email" => "john@doe.com", "password" => "azerty"]);
+        $user2 = User::create(["name" => "touille", "email" => "user2@john.com", "password" => "azerty"]);
+        $user3 = User::create(["name" => "sdsfdsfsd", "email" => "user3@john.com", "password" => "azerty"]);
 
         // Création du Post
-        $this->post = Post::create(["title" => "Titre du post","content" => "Le message est ici"]);
+        $this->post = new Post(["title" => "Titre du post","content" => "Le message est ici"]);
+        $this->post->user()->associate($this->user);
+        $this->post->save();
 
         // Vérification de l'existance du Post
         $this->assertEquals(1, Post::count());
@@ -45,7 +49,7 @@ class PostsTest extends TestCase
 
         // Création d'un deuxieme commentaire au post 1
         $comment3 = new Comment;
-        $comment3->user()->associate($this->user);
+        $comment3->user()->associate($user3);
         $comment3->content()->associate($this->post);
         $comment3->comment = "2eme commm";
         $comment3->save();
@@ -53,7 +57,7 @@ class PostsTest extends TestCase
 
         // Création d'une réponse au comment 1
         $comment2 = new Comment;
-        $comment2->user()->associate($this->user);
+        $comment2->user()->associate($user2);
         $comment2->content()->associate($this->post);
         $comment2->reply = $comment->id;
         $comment2->comment = "Réponse du premier";

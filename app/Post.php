@@ -18,8 +18,14 @@ class Post extends Model
      * @var array
      */
     protected $fillable = [
-        'title',  'content', 'is_commentable',
+        'user_id', 'title',  'content', 'is_commentable',
     ];
+
+
+    public function user()
+    {
+        return $this->belongsTo(config('comments.user_model'));
+    }
 
 
 

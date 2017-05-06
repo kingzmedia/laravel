@@ -308,3 +308,5 @@ Laravel development server started: <http://127.0.0.1:8001>
 [Sun Apr 30 17:17:26 2017] 127.0.0.1:35250 [200]: /favicon.ico
 [Sun Apr 30 17:17:31 2017] 127.0.0.1:35302 [200]: /favicon.ico
 [Tue May  2 06:22:14 2017] 127.0.0.1:52540 [200]: /favicon.ico
+MailDev app running at 0.0.0.0:1080
+MailDev SMTP Server running at 0.0.0.0:1025

@@ -16,9 +16,10 @@ class CommentCreated extends Notification
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($from,$comment)
     {
-        //
+        $this->from = $from;
+        $this->comment = $comment;
     }
 
     /**
@@ -45,7 +46,7 @@ class CommentCreated extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-            ->line(__("Un nouveau commentaire à votre contenu a été posté"))
+            ->line(__("Un nouveau commentaire à votre contenu a été posté par ".$this->from->name))
             ->action(__('Accéder au contenu'), url('/'))
             ->line(__("Merci de votre confiance"));
     }

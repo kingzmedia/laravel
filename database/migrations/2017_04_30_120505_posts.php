@@ -15,6 +15,7 @@ class Posts extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer("user_id");
             $table->string('title');
             $table->boolean('is_commentable')->default(true);
             $table->string('slug')->unique();
