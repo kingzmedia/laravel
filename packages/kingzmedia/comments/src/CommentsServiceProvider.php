@@ -36,10 +36,10 @@ class CommentsServiceProvider extends ServiceProvider
         ], 'config');
 
 
-        /*
+
         if (! $this->app->routesAreCached()) {
-            require __DIR__.'/../Http/routes.php';
-        }*/
+            require __DIR__.'/config/routes.php';
+        }
     }
 
     /**

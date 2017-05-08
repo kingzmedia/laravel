@@ -310,3 +310,64 @@ Laravel development server started: <http://127.0.0.1:8001>
 [Tue May  2 06:22:14 2017] 127.0.0.1:52540 [200]: /favicon.ico
 MailDev app running at 0.0.0.0:1080
 MailDev SMTP Server running at 0.0.0.0:1025
+Laravel development server started: <http://127.0.0.1:8000>
+[Sat May  6 22:45:34 2017] 127.0.0.1:45430 [200]: /favicon.ico
+[Sat May  6 22:45:43 2017] 127.0.0.1:45432 Invalid request (Unexpected EOF)
+[Sat May  6 22:45:43 2017] 127.0.0.1:45434 Invalid request (Unexpected EOF)
+[Sat May  6 22:48:44 2017] 127.0.0.1:46276 [200]: /favicon.ico
+[Sat May  6 22:48:45 2017] 127.0.0.1:46284 [200]: /favicon.ico
+[Sat May  6 22:48:58 2017] 127.0.0.1:46286 Invalid request (Unexpected EOF)
+[Sat May  6 22:49:34 2017] 127.0.0.1:46448 [200]: /favicon.ico
+[Sat May  6 22:49:35 2017] 127.0.0.1:46452 [200]: /favicon.ico
+[Sat May  6 22:49:35 2017] 127.0.0.1:46456 [200]: /favicon.ico
+[Sat May  6 22:49:35 2017] 127.0.0.1:46460 [200]: /favicon.ico
+[Sat May  6 22:49:41 2017] 127.0.0.1:46466 [200]: /favicon.ico
+[Sat May  6 22:49:55 2017] 127.0.0.1:46468 Invalid request (Unexpected EOF)
+[Sat May  6 22:51:21 2017] 127.0.0.1:46724 [200]: /favicon.ico
+[Sat May  6 22:51:21 2017] 127.0.0.1:46728 [200]: /favicon.ico
+[Sat May  6 22:51:32 2017] 127.0.0.1:46730 Invalid request (Unexpected EOF)
+[Sat May  6 22:52:28 2017] 127.0.0.1:47160 [200]: /favicon.ico
+[Sat May  6 22:52:29 2017] 127.0.0.1:47168 [200]: /favicon.ico
+[Sat May  6 22:52:39 2017] 127.0.0.1:47170 Invalid request (Unexpected EOF)
+[Sat May  6 22:52:53 2017] 127.0.0.1:47218 [200]: /favicon.ico
+[Sat May  6 22:53:05 2017] 127.0.0.1:47220 Invalid request (Unexpected EOF)
+[Sat May  6 22:53:10 2017] 127.0.0.1:47314 [200]: /favicon.ico
+[Sat May  6 22:53:11 2017] 127.0.0.1:47318 [200]: /favicon.ico
+[Sat May  6 22:53:22 2017] 127.0.0.1:47320 Invalid request (Unexpected EOF)
+[Sat May  6 22:53:22 2017] 127.0.0.1:47380 [200]: /favicon.ico
+[Sat May  6 22:53:32 2017] 127.0.0.1:47392 [200]: /favicon.ico
+[Sat May  6 22:53:32 2017] 127.0.0.1:47396 [200]: /favicon.ico
+[Sat May  6 22:53:43 2017] 127.0.0.1:47398 Invalid request (Unexpected EOF)
+[Sat May  6 22:56:35 2017] 127.0.0.1:47944 [200]: /favicon.ico
+[Sat May  6 22:56:36 2017] 127.0.0.1:47950 [200]: /favicon.ico
+[Sat May  6 22:56:36 2017] 127.0.0.1:47956 [200]: /favicon.ico
+[Sat May  6 22:56:45 2017] 127.0.0.1:47964 [200]: /favicon.ico
+[Sat May  6 22:57:00 2017] 127.0.0.1:47966 Invalid request (Unexpected EOF)
+[Sat May  6 22:57:02 2017] 127.0.0.1:47974 [200]: /favicon.ico
+[Sat May  6 22:57:03 2017] 127.0.0.1:47978 [200]: /favicon.ico
+[Sat May  6 22:57:03 2017] 127.0.0.1:47982 [200]: /favicon.ico
+[Sat May  6 22:57:13 2017] 127.0.0.1:47984 Invalid request (Unexpected EOF)
+[Sat May  6 22:57:16 2017] 127.0.0.1:48012 [200]: /favicon.ico
+[Sat May  6 22:57:28 2017] 127.0.0.1:48014 Invalid request (Unexpected EOF)
+[Sat May  6 22:57:49 2017] PHP Fatal error:  Dynamic class names are not allowed in compile-time ::class fetch in /var/www/html/laratest/packages/kingzmedia/comments/src/Controllers/ApiController.php on line 14
+[Sat May  6 22:57:49 2017] 127.0.0.1:48136 [200]: /favicon.ico
+[Sat May  6 22:58:00 2017] 127.0.0.1:48138 Invalid request (Unexpected EOF)
+[Sat May  6 22:58:01 2017] PHP Fatal error:  Dynamic class names are not allowed in compile-time ::class fetch in /var/www/html/laratest/packages/kingzmedia/comments/src/Controllers/ApiController.php on line 14
+[Sat May  6 22:58:01 2017] 127.0.0.1:48154 [200]: /favicon.ico
+[Sat May  6 22:58:02 2017] PHP Fatal error:  Dynamic class names are not allowed in compile-time ::class fetch in /var/www/html/laratest/packages/kingzmedia/comments/src/Controllers/ApiController.php on line 14
+[Sat May  6 22:58:02 2017] 127.0.0.1:48158 [200]: /favicon.ico
+[Sat May  6 22:58:15 2017] 127.0.0.1:48160 Invalid request (Unexpected EOF)
+[Sat May  6 22:59:14 2017] 127.0.0.1:48378 [200]: /favicon.ico
+[Sat May  6 22:59:15 2017] 127.0.0.1:48388 [200]: /favicon.ico
+[Sat May  6 22:59:22 2017] 127.0.0.1:48552 [200]: /favicon.ico
+[Sat May  6 22:59:32 2017] 127.0.0.1:48554 Invalid request (Unexpected EOF)
+[Sat May  6 23:10:08 2017] 127.0.0.1:50706 [200]: /favicon.ico
+[Sat May  6 23:10:09 2017] 127.0.0.1:50712 [200]: /favicon.ico
+[Sat May  6 23:10:09 2017] 127.0.0.1:50718 [200]: /favicon.ico
+[Sat May  6 23:10:09 2017] 127.0.0.1:50724 [200]: /favicon.ico
+[Sat May  6 23:10:21 2017] 127.0.0.1:50726 Invalid request (Unexpected EOF)
+[Sat May  6 23:10:59 2017] 127.0.0.1:50782 [200]: /favicon.ico
+[Sat May  6 23:11:09 2017] 127.0.0.1:50784 Invalid request (Unexpected EOF)
+[Sat May  6 23:24:46 2017] 127.0.0.1:53688 [200]: /favicon.ico
+[Sat May  6 23:24:47 2017] 127.0.0.1:53694 [200]: /favicon.ico
+[Sat May  6 23:24:57 2017] 127.0.0.1:53696 Invalid request (Unexpected EOF)

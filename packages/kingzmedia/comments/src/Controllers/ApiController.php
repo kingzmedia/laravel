@@ -3,14 +3,16 @@ namespace Kingzmedia\Comments\Controllers;
 
 use App\Http\Controllers\Controller;
 use Carbon\Carbon;
+use Kingzmedia\Comments\Comment;
+use App;
 
 class ApiController extends Controller
 {
 
-    public function top($type)
+    public function show($model,$model_id)
     {
-        dd("ok");
-    //echo Carbon::now($timezone)->toDateTimeString();
+        $class = "App\\".$model;
+        return Comment::getComments($class,$model_id);
     }
 
 }

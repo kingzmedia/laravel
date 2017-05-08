@@ -47,6 +47,8 @@ class PostsTest extends TestCase
         $comment->save();
 
 
+
+
         // Création d'un deuxieme commentaire au post 1
         $comment3 = new Comment;
         $comment3->user()->associate($user3);
@@ -80,5 +82,15 @@ class PostsTest extends TestCase
 
         // DEUX COMMENTAIRES PRINCIPAUX AU POST 1
         $this->assertEquals(2, sizeof($comments));
+
+
+ 
+        $content = $this->get("/api/v1/comments/Post/1")->getContent();
+    }
+
+
+    public function testApi() {
+
+
     }
 }
