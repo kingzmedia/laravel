@@ -10,4 +10,7 @@ Route::group([
 ], function() {
     Route::get('{model}/{model_id}',
         'ApiController@show')->where('model_id', '[0-9]+')->name('api_comments_show');
+
+    Route::post('{model}/{model_id}',
+        'ApiController@store')->where('model_id', '[0-9]+')->name('api_comments_store');
 });

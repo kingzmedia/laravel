@@ -13,7 +13,7 @@ class CreatePackages extends Migration
      */
     public function up()
     {
-        Schema::table('servers', function (Blueprint $table) {
+        Schema::create('packages', function (Blueprint $table) {
             $table->increments('id');
             $table->string("name");
             $table->decimal("price", "10","2");

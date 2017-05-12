@@ -13,13 +13,10 @@ class CreateNotificationsSettings extends Migration
      */
     public function up()
     {
-        Schema::table('notifications_settings', function (Blueprint $table) {
+        Schema::create('notifications_settings', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer("user_id")->unsigned();
-            $table->foreign("user_id")->references('id')->on('users')->onDelete('cascade');
-            $table->integer("server_id")->unsigned();
-            $table->foreign("server_id")->references('id')->on('servers')->onDelete('cascade');
-            $table->string("notification_class");
+            $table->integer("server_id");
+            $table->string("notification")->nullable();
             $table->boolean("send_sms")->default(true);
             $table->boolean("send_email")->default(true);
             $table->boolean("send_notification")->default(true);

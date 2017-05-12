@@ -13,14 +13,12 @@ class CreateServer extends Migration
      */
     public function up()
     {
-        Schema::table('servers', function (Blueprint $table) {
+        Schema::create('servers', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer("user_id")->unsigned();
-            $table->foreign("user_id")->references('id')->on('users')->onDelete('cascade');
+            $table->integer("user_id");
             $table->string("name");
             $table->string("ip");
             $table->timestamps();
-            $table->index(['user_id']);
         });
     }
 
