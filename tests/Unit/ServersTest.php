@@ -2,6 +2,7 @@
 
 namespace Tests\Unit;
 
+use App\Notifications\ServerAgentConnected;
 use App\NotificationsSettings;
 use App\Post;
 use App\Server;
@@ -30,10 +31,8 @@ class ServersTest extends TestCase
         $user3 = User::create(["name" => "sdsfdsfsd", "email" => "user3@john.com", "password" => "azerty"]);
 
 
-        // Vérification de l'existance du Post
+        // Vérification de l'existance des users
         $this->assertEquals(3, User::count());
-
-
 
         // Création d'un commentaire de l'utilisateur 1 sur le post 1
         $server = new Server();
@@ -42,14 +41,22 @@ class ServersTest extends TestCase
         $server->ip = "127.0.0.1";
         $server->save();
 
-
         $notif = new NotificationsSettings();
-
+        $notif->user()->associate($this->user);
         $notif->server()->associate($server);
+        $notif->notification = ServerAgentConnected::class;
         $notif->save();
 
-        $this->assertEquals(1, Server::count());
+        $server->name = "Nom2";
+        $server->save();
 
+
+
+        $this->assertEquals(1, Server::count());
+        $this->assertEquals(1, NotificationsSettings::count());
+
+        $server = Server::first();
+        $this->assertEquals(1, sizeof($server->notifications()->get()->count()));
     }
 
 

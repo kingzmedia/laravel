@@ -13,6 +13,7 @@ class CreateNotificationsLogs extends Migration
      */
     public function up()
     {
+        /*
         Schema::create('notifications_logs', function (Blueprint $table) {
             $table->increments('id');
             $table->integer("user_id")->unsigned();
@@ -24,7 +25,7 @@ class CreateNotificationsLogs extends Migration
             $table->string("channel");
             $table->timestamps();
             $table->index(['user_id', 'server_id', 'notification_class','notification_value','channel']);
-        });
+        }); */
     }
 
     /**

@@ -379,3 +379,5 @@ Laravel development server started: <http://127.0.0.1:8000>
 [Mon May  8 15:50:43 2017] 127.0.0.1:53114 [200]: /favicon.ico
 MailDev app running at 0.0.0.0:1080
 MailDev SMTP Server running at 0.0.0.0:1025
+MailDev app running at 0.0.0.0:1080
+MailDev SMTP Server running at 0.0.0.0:1025

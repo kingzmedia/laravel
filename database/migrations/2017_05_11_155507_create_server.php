@@ -17,7 +17,11 @@ class CreateServer extends Migration
             $table->increments('id');
             $table->integer("user_id");
             $table->string("name");
-            $table->string("ip");
+            $table->string("agent_connected")->default(0);
+            $table->string("ip")->nullable();
+            $table->string("geo_country")->nullable();
+            $table->string("geo_town")->nullable();
+            $table->string("isp_info")->nullable();
             $table->timestamps();
         });
     }
