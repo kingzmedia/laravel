@@ -16,6 +16,7 @@ class UpdateUsersTable extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->integer("sms_credits")->unsigned()->default(0);
             $table->integer("premium_id")->unsigned()->nullable();
+            $table->string("locale")->default("fr");
             $table->dateTime("premium_expiration")->nullable()->default(null);
             $table->index(['premium_id']);
         });

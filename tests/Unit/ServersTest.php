@@ -26,7 +26,7 @@ class ServersTest extends TestCase
     {
 
         // Création de l'utilisateur
-        $this->user = User::create(["name" => "test", "email" => "john@doe.com", "password" => "azerty"]);
+        $this->user = User::create(["name" => "test", "email" => "john@doe.com", "password" => "azerty", "locale" => "en"]);
         $user2 = User::create(["name" => "touille", "email" => "user2@john.com", "password" => "azerty"]);
         $user3 = User::create(["name" => "sdsfdsfsd", "email" => "user3@john.com", "password" => "azerty"]);
 
@@ -44,6 +44,7 @@ class ServersTest extends TestCase
         $notif = new NotificationsSettings();
         $notif->user()->associate($this->user);
         $notif->server()->associate($server);
+        $notif->send_email_to = "demo@demo.com";
         $notif->notification = ServerAgentConnected::class;
         $notif->save();
 
