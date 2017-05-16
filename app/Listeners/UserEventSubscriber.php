@@ -5,6 +5,7 @@ namespace App\Listeners;
 use App\Notifications\UserCreated;
 use App\Notifications\UserSmsLowCredits;
 use App\Notifications\UserSmsNoCredits;
+use App\ServerSettings\Notifications;
 use App\User;
 use Illuminate\Support\Facades\Event;
 
@@ -13,7 +14,11 @@ class UserEventSubscriber
     /**
      * Handle user login events.
      */
-    public function onUserLogin($event) {}
+    public function onUserLogin($user) {
+
+        // Checking notifications settings
+        new Notifications(null,$user);
+    }
 
     /**
      * Handle user logout events.

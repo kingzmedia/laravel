@@ -4,7 +4,9 @@ namespace App\Listeners;
 
 use App\Notifications\ServerAgentConnected;
 use App\Notifications\ServerAgentDisconnected;
+use App\Notifications\ServerCreated;
 use App\Notifications\UserCreated;
+use App\ServerSettings\Notifications;
 use App\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Event;
@@ -27,18 +29,17 @@ class ServersEventSubscriber
     {
         Event::fire("server.updated", array($server));
         $old = \App\Server::where("id", $server->id)->first();
-        $server->user()->first()->notify(new ServerAgentConnected($server));
 
-        if($old->name != $server->name) {
+        if ($old->name != $server->name) {
             Event::fire("server.update.name", array($server, $old->name, $server->name));
         }
-        if($old->agent_connected != $server->agent_connected) {
-            if($server->agent_connected == true || $server->agent_connected == 1 || $server->agent_connected == "1") {
+        if ($old->agent_connected != $server->agent_connected) {
+            if ($server->agent_connected == true || $server->agent_connected == 1 || $server->agent_connected == "1") {
                 Event::fire("server.agent.connected", array($server));
-                //$server->user()->notify(new ServerAgentConnected());
+                $server->user()->first()->notify(new ServerAgentConnected($server));
             } else {
                 Event::fire("server.agent.disconnected", array($server));
-               // $server->user()->notify(new ServerAgentDisconnected());
+                $server->user()->first()->notify(new ServerAgentDisconnected($server));
             }
         }
     }
@@ -52,6 +53,10 @@ class ServersEventSubscriber
     public function onServerCreated($server)
     {
         Event::fire("server.created", array($server));
+        $server->user()->first()->notify(new ServerCreated($server));
+
+        // Configure notifications settings
+        new Notifications($server);
     }
 
 

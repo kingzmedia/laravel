@@ -45,13 +45,17 @@ class ServerAgentConnected extends BaseServerNotification
             ->content($text);
     }
 
-    public static function toStringNotification($server) {
+    public static function toStringNotification($server)
+    {
         $user = Auth::user();
-        if($user->locale != "" && $user->locale != null){
-            Lang::get('notifications/ServerAgentConnected/notification.text',["name" => strtoupper($server->name), "ip" => $server->ip], $user->locale);
+
+        if ($user->locale != "" && $user->locale != null) {
+            $locale = $user->locale;
         } else {
-            Lang::get('notifications/ServerAgentConnected/notification.text',["name" => strtoupper($server->name), "ip" => $server->ip], "fr");
+            $locale = "fr";
         }
+        return array("type" => "alert", "text" => Lang::get('notifications/ServerAgentConnected/notification.text', ["name" => strtoupper($server->name), "ip" => $server->ip, "id" => $server->id], $locale));
+
     }
 
 

@@ -2,60 +2,63 @@
 
 namespace App\Notifications;
 
+use App\Server;
+use App\User;
 use Illuminate\Bus\Queueable;
+use Illuminate\Notifications\Messages\NexmoMessage;
 use Illuminate\Notifications\Notification;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Lang;
 
-class ServerAgentDisconnected extends Notification
+class ServerAgentDisconnected extends BaseServerNotification
 {
-    use Queueable;
 
-    /**
-     * Create a new notification instance.
-     *
-     * @return void
-     */
-    public function __construct()
+    public function __construct($server)
     {
-        //
+        parent::__construct($server);
     }
 
-    /**
-     * Get the notification's delivery channels.
-     *
-     * @param  mixed  $notifiable
-     * @return array
-     */
-    public function via($notifiable)
+    public function className()
     {
-        return ['mail'];
+        return __CLASS__;
     }
 
-    /**
-     * Get the mail representation of the notification.
-     *
-     * @param  mixed  $notifiable
-     * @return \Illuminate\Notifications\Messages\MailMessage
-     */
     public function toMail($notifiable)
     {
+        $subject = Lang::get('notifications/ServerAgentDisconnected/email.title', ["name" => strtoupper($this->server->name)], $this->locale);
+        $text = Lang::get('notifications/ServerAgentDisconnected/email.text', ["name" => strtoupper($this->server->name), "ip" => $this->server->ip], $this->locale);
+        $action = Lang::get('notifications/ServerAgentDisconnected/email.action', ["name" => strtoupper($this->server->name), "ip" => $this->server->ip], $this->locale);
+        $thanks = Lang::get('notifications/ServerAgentDisconnected/email.thanks', [], $this->locale);
+        $url = url('/');
+
         return (new MailMessage)
-                    ->line('The introduction to the notification.')
-                    ->action('Notification Action', url('/'))
-                    ->line('Thank you for using our application!');
+            ->subject($subject)
+            ->line($text)
+            ->action($action, $url)
+            ->line($thanks);
     }
 
-    /**
-     * Get the array representation of the notification.
-     *
-     * @param  mixed  $notifiable
-     * @return array
-     */
-    public function toArray($notifiable)
+    public function toNexmo($notifiable)
     {
-        return [
-            //
-        ];
+        $text = Lang::get('notifications/ServerAgentDisconnected/sms.text', ["name" => strtoupper($this->server->name), "ip" => $this->server->ip], $this->locale);
+        return (new NexmoMessage())
+            ->content($text);
     }
+
+    public static function toStringNotification($server)
+    {
+        $user = Auth::user();
+
+        if ($user->locale != "" && $user->locale != null) {
+            $locale = $user->locale;
+        } else {
+            $locale = "fr";
+        }
+        return array("type" => "alert", "text" => Lang::get('notifications/ServerAgentDisconnected/notification.text', ["name" => strtoupper($server->name), "ip" => $server->ip, "id" => $server->id], $locale));
+
+    }
+
+
 }

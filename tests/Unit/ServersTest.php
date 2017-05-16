@@ -3,9 +3,11 @@
 namespace Tests\Unit;
 
 use App\Notifications\ServerAgentConnected;
+use App\Notifications\ServerAgentDisconnected;
 use App\NotificationsSettings;
 use App\Post;
 use App\Server;
+use App\ServerSettings\Notifications;
 use App\User;
 use Kingzmedia\Comments\Comment;
 use Tests\TestCase;
@@ -41,21 +43,13 @@ class ServersTest extends TestCase
         $server->ip = "127.0.0.1";
         $server->save();
 
-        $notif = new NotificationsSettings();
-        $notif->user()->associate($this->user);
-        $notif->server()->associate($server);
-        $notif->send_email_to = "demo@demo.com";
-        $notif->notification = ServerAgentConnected::class;
-        $notif->save();
-
+        /*/
         $server->name = "Nom2";
         $server->save();
-
+*/
 
 
         $this->assertEquals(1, Server::count());
-        $this->assertEquals(1, NotificationsSettings::count());
-
         $server = Server::first();
         $this->assertEquals(1, sizeof($server->notifications()->get()->count()));
     }
