@@ -17,4 +17,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::middleware('App\Http\Middleware\CheckAdminToken')->post('/v1/admin/server/{id}/update', 'Api\Admin\ServerUpdateController@update')->where("id","[0-9+]")->name("api_admin_server_update");
+//middleware('App\Http\Middleware\CheckAdminToken')->
+Route::post('/v1/admin/server/{id}/update', 'Api\Admin\ServerUpdateController@update')->where("id","[0-9+]")->name("api_admin_server_update");
