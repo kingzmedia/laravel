@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
 
-class ServerUpdateController extends Controller
+class ServerPortsController extends Controller
 {
     public function update($server_id, Request $request) {
 
