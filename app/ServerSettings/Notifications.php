@@ -7,20 +7,20 @@ use App\Server;
 
 class Notifications {
 
-    private $updater;
+    private $updater = [];
 
     public function __construct($server = false, $user = false)
     {
+
+
+        $this->updater[] = array("notification" => \App\Notifications\ServerAgentConnected::class, "send_email_to" => "", "send_sms_to" => "");
+        $this->updater[] = array("notification" => \App\Notifications\ServerAgentDisconnected::class, "send_email_to" => "", "send_sms_to" => "");
+
         if($server && !$user) {
             $user = $server->user()->first();
-
-            $this->updater = [];
-            $this->updater[] = array("notification" => \App\Notifications\ServerAgentConnected::class, "send_email_to" => "", "send_sms_to" => "");
-            $this->updater[] = array("notification" => \App\Notifications\ServerAgentDisconnected::class, "send_email_to" => "", "send_sms_to" => "");
-
             $this->runChecker($server, $user);
         } elseif(!$server && $user) {
-            $servers = $user->servers()->all();
+            $servers = $user->servers()->get();
             foreach($servers as $server) {
                 $this->runChecker($server, $user);
             }

@@ -7,6 +7,7 @@ use App\Notifications\UserSmsLowCredits;
 use App\Notifications\UserSmsNoCredits;
 use App\ServerSettings\Notifications;
 use App\User;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Event;
 
 class UserEventSubscriber
@@ -17,7 +18,7 @@ class UserEventSubscriber
     public function onUserLogin($user) {
 
         // Checking notifications settings
-        new Notifications(null,$user);
+        new Notifications(false,Auth::user());
     }
 
     /**
@@ -58,6 +59,11 @@ class UserEventSubscriber
 
     public function onUserRegister(User $user) {
         $user->notify(new UserCreated());
+
+        echo $user->apiKeyGeneration();
+        echo $user->apiKeyGeneration();
+        $user->api_key = $user->apiKeyGeneration();
+        $user->save();
     }
 
     /**

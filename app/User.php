@@ -32,4 +32,22 @@ class User extends Authenticatable
     {
         return $this->hasMany('App\Server');
     }
+
+    public function apiKeyGeneration() {
+        $return = "";
+        $values = "abcdefghijklmnopqrstuvwxyz0123456789-_#@|";
+        $len = strlen($values)-1;
+        for($i=0;$i<20;$i++) {
+            $isMaj = rand(1,2);
+            $pos = rand(0,$len);
+            $tmp = $values[$pos];
+            if($isMaj == 2) {
+                $tmp = strtoupper($tmp);
+            }
+            $return .= $tmp;
+        }
+        return $return;
+    }
+
+
 }

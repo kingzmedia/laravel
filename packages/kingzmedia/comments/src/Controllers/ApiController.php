@@ -19,10 +19,10 @@ class ApiController extends Controller
     public function store($model,$model_id, Request $request)
     {
         $model = $class = "App\\".$model;
+
         $validator = Validator::make($request->all(), array(
             'comment' => 'required|string'
         ));
-
         if($validator->fails()) {
             return array("success" => false, "errors" => $validator->errors()->getMessages());
         }

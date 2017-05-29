@@ -17,6 +17,7 @@
         "laravelista/comments": "^1.1",
         "mockery/mockery": "0.9.*",
         "nwidart/laravel-videoable": "^1.0",
+        "predis/predis": "^1.1",
         "qmagix/laravel-tagging": "^2.2",
         "rinvex/cacheable": "^0.0.2",
         "rtconner/laravel-likeable": "~1.2",
