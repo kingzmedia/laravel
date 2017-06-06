@@ -37,6 +37,8 @@ class DatabaseSeeder extends Seeder
         foreach (range(15,20) as $index) {
             DB::table('servers')->insert([
                 'user_id' => 1,
+                'hash' => 'aaaa',
+                'service_tracking' => '[]',
                 'agent_connected' => $faker->boolean(),
                 'ip' => $faker->ipv4(),
                 'geo_country' => $faker->country(),

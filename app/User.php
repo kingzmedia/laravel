@@ -33,6 +33,11 @@ class User extends Authenticatable
         return $this->hasMany('App\Server');
     }
 
+    public function groups()
+    {
+        return $this->hasMany('App\Group');
+    }
+
     public function apiKeyGeneration() {
         $return = "";
         $values = "abcdefghijklmnopqrstuvwxyz0123456789-_#@|";

@@ -32,8 +32,9 @@ class Server extends Model
         return $this->hasMany('App\NotificationsSettings');
     }
 
-    public function insert(){
-        die("ok");
+    public function groups()
+    {
+        return $this->belongsToMany('App\Group');
     }
 
 

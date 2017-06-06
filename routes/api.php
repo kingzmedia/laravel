@@ -26,4 +26,11 @@ Route::post('/v1/server/{id}','Api\ServerController@update')->where("id","[0-9+]
 Route::post('/v1/server','Api\ServerController@update')->name("api_server_create");
 Route::delete('/v1/server/{id}','Api\ServerController@delete')->where("id","[0-9+]")->name("api_server_delete");
 
+Route::get('/v1/group/{id}/metrics','Api\GroupController@metrics')->where("id", "[0-9+]")->name("api_group_metrics");
+Route::get('/v1/groups','Api\GroupController@index')->name("api_groups");
+Route::get('/v1/group/{id}','Api\GroupController@view')->where("id","[0-9+]")->name("api_group_view");
+Route::post('/v1/group/{id}','Api\GroupController@update')->where("id","[0-9+]")->name("api_group_update_id");
+Route::post('/v1/group','Api\GroupController@update')->name("api_group_create");
+Route::delete('/v1/group/{id}','Api\GroupController@delete')->where("id","[0-9+]")->name("api_group_delete");
+
 Route::get('/v1/server/{serverId}/notification/{notificationId}', 'Api\ServerController@updateNotificationSettings')->name("api_server_update_notification");
